@@ -22,7 +22,7 @@ function aplicarOperacao(numero, operacao) {
 
 const quadradoArrow = (numero) => numero ** 2;
 
-console.log(quadradoArrow(5));
+// console.log(quadradoArrow(5));
 
 // formato com {} é obrigatório o return para não devolver undefined
 
@@ -33,9 +33,9 @@ const quadrado2 = (numero) => {
 //Exercício -> arrow function + Função de callback
 
 const metade = (numero) => numero / 2;
-const soma_dez = (numero) => {
+const somaDez = (numero) => {
   return numero + 10;
 };
 
 console.log(`resultado do exercício 1: ${aplicarOperacao(8, metade)}`);
-console.log(`resultado do exercício 2: ${aplicarOperacao(8, soma_dez)}`);
+console.log(`resultado do exercício 2: ${aplicarOperacao(8, somaDez)}`);
